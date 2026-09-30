@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="470" viewBox="0 0 880 470">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="sans-serif" font-size="14" fill="black">
+<text x="95" y="25" font-size="19">Random input: median sorting time (7 runs)</text>
+<path d="M95 385.0 H850" stroke="#dddddd"/>
+<text x="82" y="390.0" text-anchor="end">0.01</text>
+<path d="M95 301.25 H850" stroke="#dddddd"/>
+<text x="82" y="306.25" text-anchor="end">0.1</text>
+<path d="M95 217.5 H850" stroke="#dddddd"/>
+<text x="82" y="222.5" text-anchor="end">1</text>
+<path d="M95 133.75 H850" stroke="#dddddd"/>
+<text x="82" y="138.75" text-anchor="end">10</text>
+<path d="M95 50.0 H850" stroke="#dddddd"/>
+<text x="82" y="55.0" text-anchor="end">100</text>
+<text x="95.0" y="410" text-anchor="middle">1,000</text>
+<text x="283.75" y="410" text-anchor="middle">2,000</text>
+<text x="472.5" y="410" text-anchor="middle">4,000</text>
+<text x="661.25" y="410" text-anchor="middle">8,000</text>
+<text x="850.0" y="410" text-anchor="middle">16,000</text>
+<path d="M95 50 V385 H850" stroke="black" fill="none"/>
+<text x="470" y="442" text-anchor="middle">Input size n (log scale)</text>
+<text transform="translate(22 220) rotate(-90)" text-anchor="middle">Median time in ms (log scale)</text>
+<polyline points="95.0,300.1325317610772 283.75,234.19149860108934 472.5,198.5481485896583 661.25,147.05797944082332 850.0,98.07092974956407" fill="none" stroke="black" stroke-width="2" stroke-dasharray=""/>
+<path d="M95.0 300.79565154774264 V294.4254027306147 M91.0 300.79565154774264 H99.0 M91.0 294.4254027306147 H99.0" stroke="black"/>
+<circle cx="95.0" cy="300.1325317610772" r="4" fill="white" stroke="black"/>
+<path d="M283.75 250.21497179739708 V215.57074539533406 M279.75 250.21497179739708 H287.75 M279.75 215.57074539533406 H287.75" stroke="black"/>
+<circle cx="283.75" cy="234.19149860108934" r="4" fill="white" stroke="black"/>
+<path d="M472.5 203.0945751270388 V196.0207594126728 M468.5 203.0945751270388 H476.5 M468.5 196.0207594126728 H476.5" stroke="black"/>
+<circle cx="472.5" cy="198.5481485896583" r="4" fill="white" stroke="black"/>
+<path d="M661.25 151.4508464366188 V144.032689245905 M657.25 151.4508464366188 H665.25 M657.25 144.032689245905 H665.25" stroke="black"/>
+<circle cx="661.25" cy="147.05797944082332" r="4" fill="white" stroke="black"/>
+<path d="M850.0 98.52051706807788 V96.89674096555126 M846.0 98.52051706807788 H854.0 M846.0 96.89674096555126 H854.0" stroke="black"/>
+<circle cx="850.0" cy="98.07092974956407" r="4" fill="white" stroke="black"/>
+<path d="M95 462 h40" stroke="black" stroke-width="2" stroke-dasharray=""/>
+<text x="145" y="467">insertion</text>
+<polyline points="95.0,317.2044494389272 283.75,288.3340735913908 472.5,260.488195632514 661.25,230.87361600983567 850.0,195.73769176173496" fill="none" stroke="black" stroke-width="2" stroke-dasharray="8 4"/>
+<path d="M95.0 317.5763202473289 V316.4415349624856 M91.0 317.5763202473289 H99.0 M91.0 316.4415349624856 H99.0" stroke="black"/>
+<circle cx="95.0" cy="317.2044494389272" r="4" fill="white" stroke="black"/>
+<path d="M283.75 288.58253035262805 V286.3735853369127 M279.75 288.58253035262805 H287.75 M279.75 286.3735853369127 H287.75" stroke="black"/>
+<circle cx="283.75" cy="288.3340735913908" r="4" fill="white" stroke="black"/>
+<path d="M472.5 260.8055089255385 V258.0055560452641 M468.5 260.8055089255385 H476.5 M468.5 258.0055560452641 H476.5" stroke="black"/>
+<circle cx="472.5" cy="260.488195632514" r="4" fill="white" stroke="black"/>
+<path d="M661.25 232.46184981489947 V227.8161505727983 M657.25 232.46184981489947 H665.25 M657.25 227.8161505727983 H665.25" stroke="black"/>
+<circle cx="661.25" cy="230.87361600983567" r="4" fill="white" stroke="black"/>
+<path d="M850.0 201.62628354175843 V172.08236676264062 M846.0 201.62628354175843 H854.0 M846.0 172.08236676264062 H854.0" stroke="black"/>
+<circle cx="850.0" cy="195.73769176173496" r="4" fill="white" stroke="black"/>
+<path d="M325 462 h40" stroke="black" stroke-width="2" stroke-dasharray="8 4"/>
+<text x="375" y="467">merge</text>
+<polyline points="95.0,315.07575201157834 283.75,284.358979412759 472.5,256.10216648299667 661.25,229.83447458301058 850.0,197.23756615954525" fill="none" stroke="black" stroke-width="2" stroke-dasharray="2 4"/>
+<path d="M95.0 316.27787607139186 V303.1731231749329 M91.0 316.27787607139186 H99.0 M91.0 303.1731231749329 H99.0" stroke="black"/>
+<circle cx="95.0" cy="315.07575201157834" r="4" fill="white" stroke="black"/>
+<path d="M283.75 288.4776696214947 V275.64118834839667 M279.75 288.4776696214947 H287.75 M279.75 275.64118834839667 H287.75" stroke="black"/>
+<circle cx="283.75" cy="284.358979412759" r="4" fill="white" stroke="black"/>
+<path d="M472.5 260.12850691707285 V248.7121415537765 M468.5 260.12850691707285 H476.5 M468.5 248.7121415537765 H476.5" stroke="black"/>
+<circle cx="472.5" cy="256.10216648299667" r="4" fill="white" stroke="black"/>
+<path d="M661.25 230.38403633378337 V223.23397275474002 M657.25 230.38403633378337 H665.25 M657.25 223.23397275474002 H665.25" stroke="black"/>
+<circle cx="661.25" cy="229.83447458301058" r="4" fill="white" stroke="black"/>
+<path d="M850.0 199.43683434589136 V196.4846840382108 M846.0 199.43683434589136 H854.0 M846.0 196.4846840382108 H854.0" stroke="black"/>
+<circle cx="850.0" cy="197.23756615954525" r="4" fill="white" stroke="black"/>
+<path d="M555 462 h40" stroke="black" stroke-width="2" stroke-dasharray="2 4"/>
+<text x="605" y="467">heap</text>
+</g></svg>

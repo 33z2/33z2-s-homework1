@@ -1,0 +1,5 @@
+gcc -std=c17 -O1 -g -Wall -Wextra -Wpedantic -Werror -Isrc \
+	-fsanitize=address,undefined -fno-omit-frame-pointer -DSORT_COUNTING=1 \
+	tests/test_sort.c src/sort.c src/insertionSort.c src/mergeSort.c src/heapSort.c src/data.c -o build/test_sanitize.out
+ASAN_OPTIONS=detect_leaks=1 ./build/test_sanitize.out
+SORT_COUNTING=1: 11980 checks, 0 failures

@@ -1,0 +1,16 @@
+mkdir -p build
+gcc -std=c17 -O2 -Wall -Wextra -Wpedantic -Werror -Isrc -DSORT_COUNTING=1 tests/test_sort.c src/sort.c src/insertionSort.c src/mergeSort.c src/heapSort.c src/data.c -o build/test_sort.out
+gcc -std=c17 -O2 -Wall -Wextra -Wpedantic -Werror -Isrc -DSORT_COUNTING=0 tests/test_sort.c src/sort.c src/insertionSort.c src/mergeSort.c src/heapSort.c src/data.c -o build/test_fast.out
+./build/test_sort.out
+SORT_COUNTING=1: 11980 checks, 0 failures
+./build/test_fast.out
+SORT_COUNTING=0: 11976 checks, 0 failures
+gcc -std=c17 -O2 -Wall -Wextra -Wpedantic -Werror -Isrc -DSORT_COUNTING=0 src/main.c src/sort.c src/insertionSort.c src/mergeSort.c src/heapSort.c src/data.c -o build/benchmark.out
+./build/benchmark.out --demo
+insertion : 1 2 3 4 5
+merge     : 1 2 3 4 5
+heap      : 1 2 3 4 5
+Stability example: input (2,A) (2,B) (1,C)
+insertion : (1,C) (2,A) (2,B)  stable_observed=1
+merge     : (1,C) (2,A) (2,B)  stable_observed=1
+heap      : (1,C) (2,B) (2,A)  stable_observed=0

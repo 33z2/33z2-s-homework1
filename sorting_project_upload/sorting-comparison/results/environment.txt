@@ -1,0 +1,16 @@
+Measured at: 2026-09-30T21:35:46.345364+09:00
+OS: Linux-6.18.44-x86_64-with-glibc2.41
+Machine: x86_64
+CPU count visible: 5
+CPU: INTEL(R) XEON(R) PLATINUM 8573C
+Compiler: gcc (Debian 14.2.0-19) 14.2.0
+Flags: -std=c17 -O2 -Wall -Wextra -Wpedantic -Werror
+Timing build: SORT_COUNTING=0; counting build: SORT_COUNTING=1
+Timing: CLOCK_MONOTONIC on Linux; QueryPerformanceCounter on Windows
+Input: Item { int key; uint32_t original_index; }; size observed on supplied Linux: 8 bytes
+Sizes: 1000, 2000, 4000, 8000, 16000; six input patterns; three algorithms
+Timing: one warm-up + seven measured runs per algorithm/size/pattern
+Counts: first measured seed only, separately executed
+Scope: sorting call only; merge buffer malloc/free included; copying/validation excluded
+Input seeds: base=20260930, deterministic size/pattern/trial mixing in src/main.c
+Execution provenance for bundled results: AI-assisted isolated Linux execution environment; not the student PC
